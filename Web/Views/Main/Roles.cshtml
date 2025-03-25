@@ -1,0 +1,32 @@
+@model List<Entity.Models.Userrole>
+@{
+    Layout = "~/Views/Shared/_SecondLayout.cshtml";
+    ViewData["Title"] = "Roles Management";
+}
+
+<div class="mt-5 bg-white p-5">
+    
+
+    <div class="table-responsive mr-5">
+        <table class="table w-75">
+            <thead>
+                <tr>
+                    <th>Role</th>
+                    <th class=" text-align-right">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var role in Model)
+                {
+                    <tr>         
+                        <td>@role.Rolename</td>
+                        <td class=" text-align-right">
+                            <a href="@Url.Action("Permissions", "Main", new { roleId = role.Roleid })" 
+                               class="text-decoration-none float-right"><i class="fa-solid fa-pen text-decoration-none text-align-right"></i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

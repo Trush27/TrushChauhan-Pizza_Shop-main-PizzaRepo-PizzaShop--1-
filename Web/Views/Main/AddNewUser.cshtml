@@ -1,0 +1,216 @@
+@model Entity.ViewModel.AddUserDetail
+@{
+    Layout = "~/Views/Shared/_SecondLayout.cshtml";
+    ViewData["Title"] = "Add New User";
+}
+<div class="row-11 d-flex my-2">
+    <div class="col-6 text-Users-title fs-2">
+        Add New User
+    </div>
+    <div class="col-6 d-flex justify-content-end">
+        <a asp-controller="Main" asp-action="Users" class="text-decoration-none back-button mx-1 p-2">
+            Back
+        </a>
+    </div>
+</div>
+<form asp-action="AddNewUser" method="post" enctype="multipart/form-data">
+    <div class="add-user-frame">
+        <div class="row m-2">
+            <div class="col form-floating m-2 p-0">
+                <input type="text" class="form-control" asp-for="Firstname" id="firstName" placeholder="First Name">
+                <span class="text-danger" asp-validation-for="Firstname"></span>
+                <label for="firstName">First Name</label>
+            </div>
+            <div class="col form-floating m-2 p-0">
+                <input type="text" class="form-control" asp-for="Lastname" id="lastName" placeholder="Last Name">
+                <span class="text-danger" asp-validation-for="Lastname"></span>
+                <label for="lastName">Last Name</label>
+            </div>
+        </div>
+
+
+        <div class="row m-2">
+            <div class="col form-floating m-2 p-0">
+                <input type="text" class="form-control" asp-for="Username" id="userName" placeholder="User Name">
+                <span class="text-danger" asp-validation-for="Username"></span>
+                <label for="userName">User Name</label>
+            </div>
+            <div class="col form-floating m-2 p-0">
+                <select class="form-select" id="roles" asp-for="Roleid">
+                    <option selected disabled>Select role</option>
+                    <option value="1">Admin</option>
+                    <option value="2">Account Manager</option>
+                    <option value="3">Chef</option>
+                </select>
+                <span class="text-danger" asp-validation-for="Roleid"></span>
+                <label for="roles">Role</label>
+            </div>
+        </div>
+
+
+        <div class="row m-2">
+            <div class="col form-floating m-2 p-0">
+                <input type="email" class="form-control" asp-for="Email" id="email" placeholder="Email">
+                <span class="text-danger" asp-validation-for="Email"></span>
+                <label for="email">Email</label>
+            </div>
+            <div class="col form-floating m-2 p-0">
+                <input type="password" class="form-control icon-password" asp-for="Password" id="password"
+                    placeholder="Password">
+                <span class="text-danger" asp-validation-for="Password"></span>
+                <label for="password">Password</label>
+            </div>
+        </div>
+
+
+        <div class="row m-2">
+            <div class="col form-floating m-2 p-0">
+                <input type="file" class="form-control" id="profileImage" asp-for="ProfileImageFile" accept="image/*">
+                <span asp-validation-for="ProfileImageFile" class="text-danger"></span>
+                <label for="profileImage">Profile Image</label>
+            </div>
+        </div>
+
+
+        <div class="row m-2">
+            <div class="col form-floating m-2 p-0">
+                <select class="form-select" id="ddlCountry" asp-for="Countryid">
+                    <option value="" selected disabled>Select Country</option>
+                </select>
+                <span asp-validation-for="Countryid" class="text-danger"></span>
+                <label for="ddlCountry">Country</label>
+            </div>
+            <div class="col form-floating m-2 p-0">
+                <select class="form-select" id="ddlState" asp-for="Stateid">
+                    <option value="" selected disabled>Select State</option>
+                </select>
+                <span asp-validation-for="Stateid" class="text-danger"></span>
+                <label for="ddlState">State</label>
+            </div>
+            <div class="col form-floating m-2 p-0">
+                <select class="form-select" id="ddlCity" asp-for="Cityid">
+                    <option value="" selected disabled>Select City</option>
+                </select>
+                <span asp-validation-for="Cityid" class="text-danger"></span>
+                <label for="ddlCity">City</label>
+            </div>
+        </div>
+
+        <div class="row m-2">
+            <div class="col form-floating m-2 p-0">
+                <input type="text" class="form-control" id="zipcode" placeholder="Zipcode" asp-for="Zipcode">
+                <span asp-validation-for="Zipcode" class="text-danger"></span>
+                <label for="zipcode">Zipcode</label>
+            </div>
+            <div class="col form-floating m-2 p-0">
+                <input type="text" class="form-control" id="address" placeholder="Address" asp-for="Address">
+                <span asp-validation-for="Address" class="text-danger"></span>
+                <label for="address">Address</label>
+            </div>
+            <div class="col form-floating m-2 p-0">
+                <input type="text" class="form-control" id="phone" placeholder="Phone" asp-for="Phonenumber">
+                <span asp-validation-for="Phonenumber" class="text-danger"></span>
+                <label for="phone">Phone</label>
+            </div>
+        </div>
+
+        <div class="row m-2 my-3">
+            <div class="col my-2">
+                <button type="submit" class="create-user-button p-2">
+                    Create User
+                </button>
+                <a asp-controller="Main" asp-action="Users" class="cancel-user-button text-decoration-none p-2">
+                    Cancel
+                </a>
+            </div>
+        </div>
+    </div>
+</form>
+<script>
+
+    $(document).ready(function () {
+        var ddlCountry = $('#ddlCountry');
+        var ddlState = $('#ddlState');
+        var ddlCity = $('#ddlCity');
+        // Load Country (already present)
+        $.ajax({
+            url: '@Url.Action("LoadCountry", "Main")',
+            type: 'GET',
+            dataType: 'json',
+            success: function (d) {
+                $.each(d, function (i, country) {
+                    ddlCountry.append($("<option></option>").val(country.countryid).html(country.name));
+                });
+            },
+            error: function () {
+                alert('Error loading countries!');
+            }
+        });
+        // Country -> State change
+        ddlCountry.change(function () {
+            var countryId = parseInt($(this).val());
+            if (!isNaN(countryId)) {
+                ddlState.empty();
+                $.ajax({
+                    url: '@Url.Action("GetState", "Main")',
+                    type: 'GET',
+                    dataType: 'json',
+                    data: { countryId: countryId },
+                    success: function (d) {
+                        ddlState.empty();
+                        ddlState.append($("<option></option>").val('').html('Select State'));
+                        $.each(d, function (i, state) {
+                            ddlState.append($("<option></option>").val(state.stateid).html(state.name));
+                        });
+                    },
+                    error: function () {
+                        alert('Error loading states!');
+                    }
+                });
+            }
+        });
+        // Prevent State selection before Country
+        ddlState.focus(function () {
+            if (ddlCountry.val() === '' || ddlCountry.val() === null) {
+                toastr.warning('Please select Country first!');
+                ddlCountry.focus();
+            }
+        });
+        // Prevent City selection before State
+        ddlCity.focus(function () {
+            if (ddlState.val() === '' || ddlState.val() === null) {
+                toastr.warning('Please select State first!');
+                ddlState.focus();
+            }
+        });
+        // State -> City change
+        ddlState.change(function () {
+            var stateId = parseInt($(this).val());
+            if (!isNaN(stateId)) {
+                ddlCity.empty();
+                $.ajax({
+                    url: '@Url.Action("GetCity", "Main")',
+                    type: 'GET',
+                    dataType: 'json',
+                    data: { stateId: stateId },
+                    success: function (d) {
+                        ddlCity.empty();
+                        ddlCity.append($("<option></option>").val('').html('Select City'));
+                        $.each(d, function (i, city) {
+                            ddlCity.append($("<option></option>").val(city.cityid).html(city.name));
+                        });
+                    },
+                    error: function () {
+                        alert('Error loading cities!');
+                    }
+                });
+            }
+        });
+    });
+
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
+@await Component.InvokeAsync("Notyf")

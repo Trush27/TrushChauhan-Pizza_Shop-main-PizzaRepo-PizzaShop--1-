@@ -1,0 +1,51 @@
+D:\PizzaShop\Service\obj\Debug\net7.0\Service.csproj.AssemblyReference.cache
+D:\PizzaShop\Service\obj\Debug\net7.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\PizzaShop\Service\obj\Debug\net7.0\Service.AssemblyInfoInputs.cache
+D:\PizzaShop\Service\obj\Debug\net7.0\Service.AssemblyInfo.cs
+D:\PizzaShop\Service\obj\Debug\net7.0\Service.csproj.CoreCompileInputs.cache
+D:\PizzaShop\Service\bin\Debug\net7.0\Service.deps.json
+D:\PizzaShop\Service\bin\Debug\net7.0\Service.dll
+D:\PizzaShop\Service\bin\Debug\net7.0\Service.pdb
+D:\PizzaShop\Service\bin\Debug\net7.0\Entity.dll
+D:\PizzaShop\Service\bin\Debug\net7.0\Repository.dll
+D:\PizzaShop\Service\bin\Debug\net7.0\Repository.pdb
+D:\PizzaShop\Service\bin\Debug\net7.0\Entity.pdb
+D:\PizzaShop\Service\obj\Debug\net7.0\Service.csproj.CopyComplete
+D:\PizzaShop\Service\obj\Debug\net7.0\Service.dll
+D:\PizzaShop\Service\obj\Debug\net7.0\refint\Service.dll
+D:\PizzaShop\Service\obj\Debug\net7.0\Service.pdb
+D:\PizzaShop\Service\obj\Debug\net7.0\ref\Service.dll
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Service\bin\Debug\net7.0\Service.deps.json
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Service\bin\Debug\net7.0\Service.dll
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Service\bin\Debug\net7.0\Service.pdb
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Service\bin\Debug\net7.0\Entity.dll
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Service\bin\Debug\net7.0\Repository.dll
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Service\bin\Debug\net7.0\Repository.pdb
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Service\bin\Debug\net7.0\Entity.pdb
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Service\obj\Debug\net7.0\Service.csproj.AssemblyReference.cache
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Service\obj\Debug\net7.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Service\obj\Debug\net7.0\Service.AssemblyInfoInputs.cache
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Service\obj\Debug\net7.0\Service.AssemblyInfo.cs
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Service\obj\Debug\net7.0\Service.csproj.CoreCompileInputs.cache
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Service\obj\Debug\net7.0\Service.csproj.CopyComplete
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Service\obj\Debug\net7.0\Service.dll
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Service\obj\Debug\net7.0\refint\Service.dll
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Service\obj\Debug\net7.0\Service.pdb
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Service\obj\Debug\net7.0\ref\Service.dll
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Service\bin\Debug\net7.0\Service.deps.json
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Service\bin\Debug\net7.0\Service.dll
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Service\bin\Debug\net7.0\Service.pdb
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Service\bin\Debug\net7.0\Entity.dll
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Service\bin\Debug\net7.0\Repository.dll
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Service\bin\Debug\net7.0\Repository.pdb
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Service\bin\Debug\net7.0\Entity.pdb
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Service\obj\Debug\net7.0\Service.csproj.AssemblyReference.cache
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Service\obj\Debug\net7.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Service\obj\Debug\net7.0\Service.AssemblyInfoInputs.cache
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Service\obj\Debug\net7.0\Service.AssemblyInfo.cs
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Service\obj\Debug\net7.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Service\obj\Debug\net7.0\Service.csproj.Up2Date
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Service\obj\Debug\net7.0\Service.dll
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Service\obj\Debug\net7.0\refint\Service.dll
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Service\obj\Debug\net7.0\Service.pdb
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Service\obj\Debug\net7.0\ref\Service.dll

@@ -1,0 +1,199 @@
+@model Entity.ViewModel.MyProfile;
+@{
+    Layout = "~/Views/Shared/_SecondLayout.cshtml";
+    ViewData["Title"] = "Add New User";
+}
+<div class="row d-flex m-4 box shadow">
+    <div class="col-12 text-Users-title fs-2">
+        My Profile
+    </div>
+    <form asp-action="UpdateUserProfile" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="UserId" />
+    <input type="hidden" asp-for="ExistingProfileImage" />
+        <div class="My-Profile col">
+            <div class="row">
+                <img class="" src="~/images/profile_div_bg.jpg" alt="" height="50px">
+            </div>
+            <div class="row p-0 ">
+                <div class="col mt-4 d-flex">
+                    
+                    <img src="@Model.ExistingProfileImage"
+                        class="rounded-circle w-25 position-relative bottom-50 mt-5 mx-4 p-0">
+                    <div class="row d-flex flex-column">
+                        <div class="d-flex col">
+                            <p class="Firstname fs-4 fw-bold">@Model.Firstname</p>
+                            <p class="Lastname fs-4 fw-bold mx-2">@Model.Lastname</p>
+                        </div>
+                        <div class="col">
+                            <p class="Username fs-5">@Model.Username</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col text-align-right mt-4">
+                    <p class=" mx-2">@Model.Email</p>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col form-floating m-2 p-0">
+                    <input type="text" class="form-control" asp-for="Firstname" placeholder="First Name">
+                    <span class="text-danger" asp-validation-for="Firstname" id="firstName"></span>
+                    <label for="firstName">First Name</label>
+                </div>
+                <div class="col form-floating m-2 p-0">
+                    <input type="text" class="form-control" asp-for="Lastname" placeholder="Last Name">
+                    <span class="text-danger" asp-validation-for="Lastname" id="lastName"></span>
+                    <label for="lastName">Last Name</label>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col form-floating m-2 p-0">
+                    <input type="text" class="form-control" asp-for="Username" placeholder="User Name">
+                    <span class="text-danger" asp-validation-for="Username"></span>
+                    <label for="userName">User Name</label>
+                </div>
+                <div class="col form-floating m-2 p-0">
+                    <input type="text" class="form-control" placeholder="Phone" asp-for="Phonenumber">
+                    <span asp-validation-for="Phonenumber" class="text-danger"></span>
+                    <label for="phone">Phone</label>
+                </div>
+            </div>
+            <div class="row">
+                <input type="hidden" id="selectedCountryId" value="@Model.Countryid" />
+                <input type="hidden" id="selectedStateId" value="@Model.Stateid" />
+                <input type="hidden" id="selectedCityId" value="@Model.Cityid" />
+                <div class="col form-floating m-2 p-0">
+                    <select class="form-select" id="ddlCountry" asp-for="Countryid">
+                        <option value="" selected disabled>Select Country</option>
+                    </select>
+                    <span asp-validation-for="Countryid" class="text-danger"></span>
+                    <label for="ddlCountry">Country</label>
+                </div>
+                <div class="col form-floating m-2 p-0">
+                    <select class="form-select" id="ddlState" asp-for="Stateid">
+                        <option value="" selected disabled>Select State</option>
+                    </select>
+                    <span asp-validation-for="Stateid" class="text-danger"></span>
+                    <label for="ddlState">State</label>
+                </div>
+                <div class="col form-floating m-2 p-0">
+                    <select class="form-select" id="ddlCity" asp-for="Cityid">
+                        <option value="" selected disabled>Select City</option>
+                    </select>
+                    <span asp-validation-for="Cityid" class="text-danger"></span>
+                    <label for="ddlCity">City</label>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-8 form-floating">
+                    <input type="text" class="form-control" id="address" placeholder="Address" asp-for="Address">
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                    <label for="address">Address</label>
+                </div>
+                <div class="col-4 form-floating ">
+                    <input type="text" class="form-control" id="zipcode" placeholder="Zipcode" asp-for="Zipcode">
+                    <span asp-validation-for="Zipcode" class="text-danger"></span>
+                    <label for="zipcode">Zipcode</label>
+                </div>
+            </div>
+            <div class="row m-2 my-3 text-align-right">
+                <div class="col my-2">
+                    <button type="submit" class="create-user-button p-2">
+                        Update
+                    </button>
+                    <a asp-controller="Main" asp-action="Users" class="cancel-user-button text-decoration-none p-2">
+                        Cancel
+                    </a>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script>
+
+    $(document).ready(function () {
+        var selectedCountryId = $('#selectedCountryId').val();
+        var selectedStateId = $('#selectedStateId').val();
+        var selectedCityId = $('#selectedCityId').val();
+
+        var ddlCountry = $('#ddlCountry');
+        ddlCountry.append($("<option></option>").val('').html('Please Select Country'));
+
+        $.ajax({
+            url: '@Url.Action("LoadCountry", "Main")',
+            type: 'GET',
+            dataType: 'json',
+            success: function (d) {
+                $.each(d, function (i, country) {
+                    ddlCountry.append($("<option></option>").val(country.countryid).html(country.name));
+                });
+                if (selectedCountryId) {
+                    ddlCountry.val(selectedCountryId).trigger('change');
+                }
+            },
+            error: function () {
+                alert('Error loading countries!');
+            }
+        });
+
+        $("#ddlCountry").change(function () {
+            var countryId = parseInt($(this).val());
+            if (!isNaN(countryId)) {
+                var ddlState = $('#ddlState');
+                ddlState.empty();
+
+                $.ajax({
+                    url: '@Url.Action("GetState", "Main")',
+                    type: 'GET',
+                    dataType: 'json',
+                    data: { countryId: countryId },
+                    success: function (d) {
+                        ddlState.append($("<option></option>").val('').html('Select State'));
+                        $.each(d, function (i, state) {
+                            ddlState.append($("<option></option>").val(state.stateid).html(state.name));
+                        });
+                        if (selectedStateId) {
+                            ddlState.val(selectedStateId).trigger('change');
+                        }
+                    },
+                    error: function () {
+                        alert('Error loading states!');
+                    }
+                });
+            }
+        });
+        $("#ddlState").change(function () {
+            var stateId = parseInt($(this).val());
+            if (!isNaN(stateId)) {
+                var ddlCity = $('#ddlCity');
+                ddlCity.empty();
+                ddlCity.append($("<option></option>").val('').html('Please wait ...'));
+
+                $.ajax({
+                    url: '@Url.Action("GetCity", "Main")',
+                    type: 'GET',
+                    dataType: 'json',
+                    data: { stateId: stateId },
+                    success: function (d) {
+                        ddlCity.empty();
+                        ddlCity.append($("<option></option>").val('').html('Select City'));
+                        $.each(d, function (i, city) {
+                            ddlCity.append($("<option></option>").val(city.cityid).html(city.name));
+                        });
+                        if (selectedCityId) {
+                            ddlCity.val(selectedCityId);
+                        }
+                    },
+                    error: function () {
+                        alert('Error loading cities!');
+                    }
+                });
+            }
+        });
+    });
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>

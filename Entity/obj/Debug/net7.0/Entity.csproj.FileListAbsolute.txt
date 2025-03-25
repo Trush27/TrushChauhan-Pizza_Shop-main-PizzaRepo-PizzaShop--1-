@@ -1,0 +1,42 @@
+D:\PizzaShop\Entity\bin\Debug\net7.0\Entity.deps.json
+D:\PizzaShop\Entity\bin\Debug\net7.0\Entity.dll
+D:\PizzaShop\Entity\bin\Debug\net7.0\Entity.pdb
+D:\PizzaShop\Entity\obj\Debug\net7.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\PizzaShop\Entity\obj\Debug\net7.0\Entity.AssemblyInfoInputs.cache
+D:\PizzaShop\Entity\obj\Debug\net7.0\Entity.AssemblyInfo.cs
+D:\PizzaShop\Entity\obj\Debug\net7.0\Entity.csproj.CoreCompileInputs.cache
+D:\PizzaShop\Entity\obj\Debug\net7.0\Entity.dll
+D:\PizzaShop\Entity\obj\Debug\net7.0\refint\Entity.dll
+D:\PizzaShop\Entity\obj\Debug\net7.0\Entity.pdb
+D:\PizzaShop\Entity\obj\Debug\net7.0\ref\Entity.dll
+D:\PizzaShop\Entity\bin\Debug\net7.0\Entity.runtimeconfig.json
+D:\PizzaShop\Entity\obj\Debug\net7.0\Entity.genruntimeconfig.cache
+D:\PizzaShop\Entity\obj\Debug\net7.0\Entity.csproj.AssemblyReference.cache
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Entity\bin\Debug\net7.0\Entity.deps.json
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Entity\bin\Debug\net7.0\Entity.runtimeconfig.json
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Entity\bin\Debug\net7.0\Entity.dll
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Entity\bin\Debug\net7.0\Entity.pdb
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Entity\obj\Debug\net7.0\Entity.csproj.AssemblyReference.cache
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Entity\obj\Debug\net7.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Entity\obj\Debug\net7.0\Entity.AssemblyInfoInputs.cache
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Entity\obj\Debug\net7.0\Entity.AssemblyInfo.cs
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Entity\obj\Debug\net7.0\Entity.csproj.CoreCompileInputs.cache
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Entity\obj\Debug\net7.0\Entity.dll
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Entity\obj\Debug\net7.0\refint\Entity.dll
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Entity\obj\Debug\net7.0\Entity.pdb
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Entity\obj\Debug\net7.0\Entity.genruntimeconfig.cache
+D:\Project\Pizza_Shop\PizzaRepo\PizzaShop\Entity\obj\Debug\net7.0\ref\Entity.dll
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Entity\bin\Debug\net7.0\Entity.deps.json
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Entity\bin\Debug\net7.0\Entity.runtimeconfig.json
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Entity\bin\Debug\net7.0\Entity.dll
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Entity\bin\Debug\net7.0\Entity.pdb
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Entity\obj\Debug\net7.0\Entity.csproj.AssemblyReference.cache
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Entity\obj\Debug\net7.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Entity\obj\Debug\net7.0\Entity.AssemblyInfoInputs.cache
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Entity\obj\Debug\net7.0\Entity.AssemblyInfo.cs
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Entity\obj\Debug\net7.0\Entity.csproj.CoreCompileInputs.cache
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Entity\obj\Debug\net7.0\Entity.dll
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Entity\obj\Debug\net7.0\refint\Entity.dll
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Entity\obj\Debug\net7.0\Entity.pdb
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Entity\obj\Debug\net7.0\Entity.genruntimeconfig.cache
+C:\Users\trush\Downloads\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\Entity\obj\Debug\net7.0\ref\Entity.dll

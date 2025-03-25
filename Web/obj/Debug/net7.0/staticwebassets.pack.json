@@ -1,0 +1,469 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Web.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\Default_pfp.svg.png",
+      "PackagePath": "staticwebassets\\images\\Default_pfp.svg.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\QR.png",
+      "PackagePath": "staticwebassets\\images\\QR.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\delete-icon.png",
+      "PackagePath": "staticwebassets\\images\\delete-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\dining-menu.png",
+      "PackagePath": "staticwebassets\\images\\dining-menu.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\dominos_background.jpg",
+      "PackagePath": "staticwebassets\\images\\dominos_background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\icons\\customer.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\customer.svg"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\icons\\dinner-table.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\dinner-table.svg"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\icons\\icons8-search.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\icons8-search.svg"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\icons\\non-veg-icon.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\non-veg-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\icons\\order-value.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\order-value.svg"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\icons\\total-orders.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\total-orders.svg"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\icons\\total-sales.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\total-sales.svg"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\icons\\veg-icon.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\veg-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\icons\\vegan-icon.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\vegan-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\icons\\waiting-list.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\waiting-list.svg"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\icons\\waiting-time.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\waiting-time.svg"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\logos\\icons8-facebook-48.png",
+      "PackagePath": "staticwebassets\\images\\logos\\icons8-facebook-48.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\logos\\icons8-github-48.png",
+      "PackagePath": "staticwebassets\\images\\logos\\icons8-github-48.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\logos\\icons8-google-48.png",
+      "PackagePath": "staticwebassets\\images\\logos\\icons8-google-48.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\logos\\pizzashop_logo.png",
+      "PackagePath": "staticwebassets\\images\\logos\\pizzashop_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\menu-item-icon.png",
+      "PackagePath": "staticwebassets\\images\\menu-item-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\plus-button.png",
+      "PackagePath": "staticwebassets\\images\\plus-button.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\profile_div_bg.jpg",
+      "PackagePath": "staticwebassets\\images\\profile_div_bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\profiles\\0029de43-bf9d-44c1-adaf-fa6ae3e362ec_Screenshot (2).png",
+      "PackagePath": "staticwebassets\\images\\profiles\\0029de43-bf9d-44c1-adaf-fa6ae3e362ec_Screenshot (2).png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\profiles\\0a66bdb3-8879-45cd-8c1e-818d0dd08db5_pizzashop_logo.png",
+      "PackagePath": "staticwebassets\\images\\profiles\\0a66bdb3-8879-45cd-8c1e-818d0dd08db5_pizzashop_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\profiles\\1c8e898c-1bb5-43d2-ab79-f077995d18b6_Default_pfp.svg.png",
+      "PackagePath": "staticwebassets\\images\\profiles\\1c8e898c-1bb5-43d2-ab79-f077995d18b6_Default_pfp.svg.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\profiles\\26cd50ce-5d77-49ac-85a1-694eaefcc5c5_transperent-pizza.png",
+      "PackagePath": "staticwebassets\\images\\profiles\\26cd50ce-5d77-49ac-85a1-694eaefcc5c5_transperent-pizza.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\profiles\\3489e19b-a73e-4e6f-b9c1-b9e3790b3f52_icons8-google-48.png",
+      "PackagePath": "staticwebassets\\images\\profiles\\3489e19b-a73e-4e6f-b9c1-b9e3790b3f52_icons8-google-48.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\profiles\\35c5190f-0059-4ffe-89f4-6d1b41cdf1f6_Screenshot (1).png",
+      "PackagePath": "staticwebassets\\images\\profiles\\35c5190f-0059-4ffe-89f4-6d1b41cdf1f6_Screenshot (1).png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\profiles\\579991f7-351e-4677-aceb-00a2a4942b28_Default_pfp.svg.png",
+      "PackagePath": "staticwebassets\\images\\profiles\\579991f7-351e-4677-aceb-00a2a4942b28_Default_pfp.svg.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\profiles\\59681e8a-de58-4ba9-baa3-ded80d929a5b_pizzashop_logo.png",
+      "PackagePath": "staticwebassets\\images\\profiles\\59681e8a-de58-4ba9-baa3-ded80d929a5b_pizzashop_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\profiles\\6442fff7-7d94-4f10-b332-46915aee6978_Screenshot (1).png",
+      "PackagePath": "staticwebassets\\images\\profiles\\6442fff7-7d94-4f10-b332-46915aee6978_Screenshot (1).png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\profiles\\64661b60-8114-4535-85f3-b97b2b7d9367_Default_pfp.svg.png",
+      "PackagePath": "staticwebassets\\images\\profiles\\64661b60-8114-4535-85f3-b97b2b7d9367_Default_pfp.svg.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\profiles\\747fa3ae-c572-4892-a812-0e3c2903fab8_Default_pfp.svg.png",
+      "PackagePath": "staticwebassets\\images\\profiles\\747fa3ae-c572-4892-a812-0e3c2903fab8_Default_pfp.svg.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\profiles\\933ed4ed-dbd1-4924-97e7-d7daf7a645a7_icons8-github-48.png",
+      "PackagePath": "staticwebassets\\images\\profiles\\933ed4ed-dbd1-4924-97e7-d7daf7a645a7_icons8-github-48.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\profiles\\96a081da-5c43-48b2-91ec-e083e264c239_Default_pfp.svg.png",
+      "PackagePath": "staticwebassets\\images\\profiles\\96a081da-5c43-48b2-91ec-e083e264c239_Default_pfp.svg.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\profiles\\9aefd5ff-9007-44d3-b8de-33cfa744c387_Default_pfp.svg.png",
+      "PackagePath": "staticwebassets\\images\\profiles\\9aefd5ff-9007-44d3-b8de-33cfa744c387_Default_pfp.svg.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\profiles\\9f4c217c-a5ef-4d0c-9a20-a8549042b540_Screenshot (2).png",
+      "PackagePath": "staticwebassets\\images\\profiles\\9f4c217c-a5ef-4d0c-9a20-a8549042b540_Screenshot (2).png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\profiles\\aaa82556-2af3-4395-9c65-4401c8268f66_Default_pfp.svg.png",
+      "PackagePath": "staticwebassets\\images\\profiles\\aaa82556-2af3-4395-9c65-4401c8268f66_Default_pfp.svg.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\profiles\\c21b170d-5e1b-45cf-961b-76c6c392298c_Default_pfp.svg.png",
+      "PackagePath": "staticwebassets\\images\\profiles\\c21b170d-5e1b-45cf-961b-76c6c392298c_Default_pfp.svg.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\profiles\\cb0c8702-b825-4888-aca1-db403cb77337_transperent-pizza.png",
+      "PackagePath": "staticwebassets\\images\\profiles\\cb0c8702-b825-4888-aca1-db403cb77337_transperent-pizza.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\profiles\\d015ba24-7cd1-41d7-b55d-2ddc8e44d7b1_Screenshot (2).png",
+      "PackagePath": "staticwebassets\\images\\profiles\\d015ba24-7cd1-41d7-b55d-2ddc8e44d7b1_Screenshot (2).png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\profiles\\d04265f7-83b3-452b-a4ca-fa4c67330983_Default_pfp.svg.png",
+      "PackagePath": "staticwebassets\\images\\profiles\\d04265f7-83b3-452b-a4ca-fa4c67330983_Default_pfp.svg.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\profiles\\d9dec5b5-bb76-4944-9d6f-62d68eea6f36_Screenshot (1).png",
+      "PackagePath": "staticwebassets\\images\\profiles\\d9dec5b5-bb76-4944-9d6f-62d68eea6f36_Screenshot (1).png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\profiles\\ec8f956c-659f-48ce-96bc-7ee269d9cfbd_Default_pfp.svg.png",
+      "PackagePath": "staticwebassets\\images\\profiles\\ec8f956c-659f-48ce-96bc-7ee269d9cfbd_Default_pfp.svg.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\profiles\\faead1a6-987a-4a33-adef-41b7e2d5df80_Default_pfp.svg.png",
+      "PackagePath": "staticwebassets\\images\\profiles\\faead1a6-987a-4a33-adef-41b7e2d5df80_Default_pfp.svg.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\qr-code.png",
+      "PackagePath": "staticwebassets\\images\\qr-code.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\toppng.com-warning-icon-2400x2400.png",
+      "PackagePath": "staticwebassets\\images\\toppng.com-warning-icon-2400x2400.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\transperent-pizza.png",
+      "PackagePath": "staticwebassets\\images\\transperent-pizza.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\images\\visibility-off.png",
+      "PackagePath": "staticwebassets\\images\\visibility-off.png"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\trush\\Downloads\\TrushChauhan Pizza_Shop main PizzaRepo-PizzaShop (1)\\Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Web.props",
+      "PackagePath": "build\\Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Web.props",
+      "PackagePath": "buildMultiTargeting\\Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Web.props",
+      "PackagePath": "buildTransitive\\Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,201 @@
+@model List<Entity.ViewModel.UserTable>
+@{
+    Layout = "~/Views/Shared/_SecondLayout.cshtml";
+    ViewData["Title"] = "Page Title";
+    var currentPage = ViewBag.CurrentPage;
+    var pageSize = ViewBag.PageSize;
+    var totalPages = ViewBag.TotalPages;
+    var totalItems = ViewBag.TotalItems;
+    var searchTerm = ViewBag.SearchTerm;
+}
+
+<form method="get" action="/Main/ShowUsers">
+    <div class="row-11 d-flex my-2 mx-2">
+        <div class="col-2 text-Users-title fs-2">
+            Users
+        </div>
+        <div class="col-10 d-flex justify-content-end">
+            <div class="row mx-2">
+                <input type="text" name="searchTerm" type="submit" placeholder="Search" class="search-textbox col p-4"
+                    value="@searchTerm" />
+            </div>
+            <a asp-controller="Main" asp-action="AddNewUser" class="text-decoration-none add-user-button">
+                +Add User
+            </a>
+        </div>
+    </div>
+    <input type="hidden" name="page" value="@currentPage" />
+
+
+    <div class="table-responsive users-table row m-3">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col" class="text-black-50">Name</th>
+                    <th scope="col" class="text-black-50">Email</th>
+                    <th scope="col" class="text-black-50">Phone</th>
+                    <th scope="col" class="text-black-50">Role</th>
+                    <th scope="col" class="text-black-50">Status</th>
+                    <th scope="col" class="text-black-50">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in Model)
+                {
+                    <tr data-user-id="@user.UserId">
+                        <td>
+                            <img src="@user.ProfileImage" alt="" width="40px" height="35px" class="mx-2 rounded-circle ">
+                            @user.Name
+                        </td>
+                        <td>@user.Email</td>
+                        <td>@user.Phone</td>
+                        <td>@user.Role</td>
+                        <td>
+                            <span class="status px-4 py-1" >@user.Status</span>
+                        </td>
+                        <td>
+                            <a asp-action="EditUser" asp-route-id="@user.UserId"><i class="material-icons" >edit</i></a>
+                            <i class="material-icons delete-user" data-user-id="@user.UserId" data-bs-toggle="modal"
+                                data-bs-target="#confirmmodal">delete</i>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <div class="row mt-4 pagination-container justify-content-end">
+            <div class="col-md-8 d-flex align-items-center justify-content-end">
+                <div class="row mx-2">
+                    <select class="form-select" name="pageSize" onchange="this.form.submit()">
+                        <option value="1" selected=@(pageSize == 1)>1</option>
+                        <option value="2" selected=@(pageSize == 2)>2</option>
+                        <option value="3" selected=@(pageSize == 3)>3</option>
+                    </select>
+                </div>
+                <div>
+                    <span class="text-muted">
+                        Showing @Math.Min((currentPage - 1) * pageSize + 1,totalItems) - @Math.Min(currentPage * pageSize, totalItems) of
+                        @totalItems
+                    </span>
+                </div>
+                <div>
+                    @if (currentPage > 1)
+                    {
+                        <a class="btn btn-outline-primary mx-1"
+                            href="/Main/ShowUsers?page=@(currentPage - 1)&pageSize=@pageSize&searchTerm=@searchTerm">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                    }
+                    else
+                    {
+                        <span class="btn btn-outline-secondary mx-1 disabled"><i class="fas fa-chevron-left"></i>
+                        </span>
+                    }
+
+                    @if (currentPage < totalPages)
+                    {
+                        <a class="btn btn-outline-primary mx-1"
+                            href="/Main/ShowUsers?page=@(currentPage + 1)&pageSize=@pageSize&searchTerm=@searchTerm">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    }
+                    else
+                    {
+                        <span class="btn btn-outline-secondary mx-1 disabled"> <i
+                                class="fas fa-chevron-right"></i></span>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<div id="confirmmodal" class="modal m-3" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class=" row modal-content w-100 border border-dark">
+            <div class="modal-header d-flex row">
+                <h5 class="modal-title col-10 m-3">Delete confirmation</h5>
+                <button type="button" class="btn-close col-2 m-9" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body row">
+                <p class="col-12 m-3">Are you sure want to delete this user.</p>
+            </div>
+            <div class=" row modal-footer m-3 d-flex align-items-center justify-content-center">
+                <button type="button" class="btn btn-primary col m-3" data-bs-dismiss="modal"
+                    id="confirmDelete">Yes</button>
+                <button type="button" class=" no-button col m-3" data-bs-dismiss="modal">No</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.querySelector('form').addEventListener('submit', function (e) {
+        e.preventDefault();
+        const searchTerm = document.querySelector('input[name="searchTerm"]').value;
+        const pageSize = document.querySelector('select[name="pageSize"]').value;
+        window.location.href = `/Main/ShowUsers?page=1&pageSize=${pageSize}&searchTerm=${encodeURIComponent(searchTerm)}`;
+    });
+
+    document.querySelectorAll('.pagination-container a').forEach(link => {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+            const url = new URL(this.href);
+            window.location.href = url.toString();
+        });
+    });
+
+    function initializeDeleteButtons() {
+        let userIdToDelete = null;
+
+        document.querySelectorAll('.delete-user').forEach(button => {
+            button.addEventListener('click', function () {
+                userIdToDelete = this.getAttribute('data-user-id');
+            });
+        });
+
+        document.getElementById('confirmDelete').addEventListener('click', function () {
+            if (userIdToDelete) {
+                fetch(`/Main/Delete/${userIdToDelete}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.success) {
+                            const row = document.querySelector(`tr[data-user-id="${userIdToDelete}"]`);
+                            if (row) {
+                                row.remove();
+                            }
+                            const modal = bootstrap.Modal.getInstance(document.getElementById('confirmmodal'));
+                            modal.hide();
+
+                            window.location.reload();
+                        } else {
+                            alert(data.message || 'Error deleting user');
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        alert('Error deleting user');
+                    });
+            }
+        });
+    }
+    
+    const statusElements = document.querySelectorAll('.status');
+    
+    statusElements.forEach(element => {
+        const status = element.innerHTML;
+        
+        if (status === "inactive") {
+            element.classList.add('status-inactive');
+            element.classList.remove('status-active');
+        } else {
+            element.classList.add('status-active');
+            element.classList.remove('status-inactive');
+        }
+});
+    initializeDeleteButtons();
+</script>
